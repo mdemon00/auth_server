@@ -3,7 +3,18 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 
-const validLicenseKeys = ['key1', 'key2', 'key3']; // Sample list of valid license keys
+const validLicenseKeys = [
+    'aG72KzB6V9cNpUqR8E0TfWdS',
+    '5bNvDpF4XaHqRwZ8E1TgYcVx',
+    '9cNpUqR8E2ThWmYbF5XcV7Qa',
+    'zB6VaG8E1TdW3CfR5YqXmZpN',
+    'fWdS5bD9QaR7E1TpU0cNvGzB',
+    '9cVx5bNpU8EdWqRfThY2CvZa',
+    'cVx5bNpUqR8EdWfTgYcV3QaS',
+    'bNpUqR7E1TdWfYcVx5Qa2ZpN',
+    '2KzB6V9cXpUqR8E0TfWdS5b',
+    'mYbNpUqR8E1TdW3CfR5YzB6V'
+]; 
 const activeSessions = {}; // Dictionary to store active sessions
 
 const SESSION_TIMEOUT = 86400; 
