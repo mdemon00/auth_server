@@ -4,9 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "echo 'Build script is not needed for this project'"
   },
-  "author": "Your Name",
+  "author": "mdemon",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
