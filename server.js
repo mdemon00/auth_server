@@ -23,6 +23,10 @@ setInterval(() => {
 }, SESSION_TIMEOUT * 1000);
 
 // Routes
+app.get('/', (req, res) => {
+    res.send('API server is running');
+});
+
 app.post('/validate_license', (req, res) => {
     const { license_key } = req.body;
 
