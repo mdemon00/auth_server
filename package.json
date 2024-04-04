@@ -4,8 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "echo 'Build script is not needed for this project'"
+    "start": "node server.js"
   },
   "author": "mdemon",
   "license": "MIT",
