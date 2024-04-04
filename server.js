@@ -6,7 +6,7 @@ const app = express();
 const validLicenseKeys = ['key1', 'key2', 'key3']; // Sample list of valid license keys
 const activeSessions = {}; // Dictionary to store active sessions
 
-const SESSION_TIMEOUT = 30; // Session timeout period in seconds (for testing purposes)
+const SESSION_TIMEOUT = 86400; 
 
 // Middleware
 app.use(bodyParser.json());
